@@ -18,7 +18,8 @@ def money(request, money):
     result = search_data(money)
     if result:
         return Response(result, status=status.HTTP_200_OK)
-    return Response(result, status=status.HTTP_200_OK)
+    return Response(result, status=status.HTTP_404_NOT_FOUND)
+
 
 def search_data(money):
 
