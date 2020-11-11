@@ -6,5 +6,5 @@ router = routers.DefaultRouter()
 
 
 urlpatterns = [
-    path('<str:money>/', money)
+    path('<str:currency>/', money)
 ]
