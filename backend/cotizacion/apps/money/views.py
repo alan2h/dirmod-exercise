@@ -33,5 +33,4 @@ def all_currency(request):
        api para saber todas las monedas permitidas
     ---
     """
-    print('aaaaaa')
     return Response(get_all_currency_json(), status=status.HTTP_200_OK) 
