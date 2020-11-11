@@ -1,6 +1,6 @@
 ## Ejercicio 1
  Implementar una Web Api RESTful que retorne las cotizaciones de, al menos, 3 monedas.
- ### Método de ejecución :
+ ### Backend método de ejecución :
 
     - Api en django rest framework. ubicacion (/backend/cotizacion/)
     - 1_ instalar requerimientos: pip install -r requirements
