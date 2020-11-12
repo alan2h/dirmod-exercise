@@ -1,5 +1,5 @@
-## Ejercicio 1
- Implementar una Web Api RESTful que retorne las cotizaciones de, al menos, 3 monedas.
+## Ejercicio 
+
  ### Backend método de ejecución :
 
     - Api en django rest framework. ubicacion (/backend/cotizacion/)
@@ -12,3 +12,12 @@
     - 5_ url de la api: /cotizacion/{money}/ => ejemplos: /cotizacion/dolar/
     - 6_ swagger: en el inicio.
     - 7_ archivo json en la carpeta raiz para agregar las monedas. 
+
+
+ ### FrontEnd método de ejecución :
+
+    - FrontEnd en Vue Js. ubicacion (/frontend/cotizacion/)
+    - 1_ ejecutar instalacion de requerimientos: npm install
+    - 2_ ejecutar servidor de prueba: npm run serve
+    - 3_ arquitectura flux  - utilizando Vuex
+    - 4_ manejo de rutas con Vue router.
