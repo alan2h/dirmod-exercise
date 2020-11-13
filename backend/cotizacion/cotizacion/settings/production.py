@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -24,7 +24,7 @@ SECRET_KEY = '_wys$ukmtsy@fri*6z1zwk3^rkuw8enp$7xfn-d4w5&*mry-ve'
 SECRET_KEY_API = '6270|aEpFngpnV4Dkzg84GNosPkav~pEjKFVD'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True 
 CORS_ALLOW_CREDENTIALS = True
@@ -130,6 +130,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
 
 # Configure Django App for Heroku.
 import django_heroku

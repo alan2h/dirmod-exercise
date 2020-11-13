@@ -21,3 +21,9 @@
     - 2_ ejecutar servidor de prueba: npm run serve
     - 3_ arquitectura flux  - utilizando Vuex
     - 4_ manejo de rutas con Vue router.
+
+
+### deploys en Heroku:
+
+   - Backend: https://herokudjangocotizacion.herokuapp.com/
+   

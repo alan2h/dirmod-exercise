@@ -1,1 +1,1 @@
-web: gunicorn --env DJANGO_SETTINGS_MODULE=settings.production cotizacion.wsgi --log-file -
+web: gunicorn --env DJANGO_SETTINGS_MODULE=cotizacion.settings.production cotizacion.wsgi --log-file -
