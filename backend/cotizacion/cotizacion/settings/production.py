@@ -24,7 +24,7 @@ SECRET_KEY = '_wys$ukmtsy@fri*6z1zwk3^rkuw8enp$7xfn-d4w5&*mry-ve'
 SECRET_KEY_API = '6270|aEpFngpnV4Dkzg84GNosPkav~pEjKFVD'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
