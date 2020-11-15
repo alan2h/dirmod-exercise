@@ -14,7 +14,7 @@
     - 7_ archivo json en la carpeta raiz para agregar las monedas. 
 
 
- ### FrontEnd método de ejecución :
+ ### Frontend método de ejecución :
 
     - FrontEnd en Vue Js. ubicacion (/frontend/cotizacion/)
     - 1_ ejecutar instalacion de requerimientos: npm install
