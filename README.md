@@ -26,4 +26,4 @@
 ### deploys en Heroku:
 
    - Backend: https://herokudjangocotizacion.herokuapp.com/
-   
+   - Frontend: https://herokuvuecotizacion.herokuapp.com/
